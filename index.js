@@ -21,9 +21,10 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all'
+        trailingComma: 'none'
       }
     ],
+
     eqeqeq: ['error', 'always'],
 
     semi: ['error', 'always']
