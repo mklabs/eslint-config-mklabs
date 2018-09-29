@@ -30,6 +30,8 @@ module.exports = {
 
     eqeqeq: ['error', 'always'],
 
-    semi: ['error', 'always']
+    semi: ['error', 'always'],
+
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next|reject' }]
   }
 };
