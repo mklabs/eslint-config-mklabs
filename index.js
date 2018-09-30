@@ -4,7 +4,7 @@ module.exports = {
   extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true
