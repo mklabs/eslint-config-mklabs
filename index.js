@@ -32,6 +32,7 @@ module.exports = {
 
     semi: ['error', 'always'],
 
-    'no-unused-vars': ['error', { argsIgnorePattern: 'next|reject' }]
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next|reject' }],
+    'no-restricted-syntax': ['error', 'LabeledStatement', 'WithStatement']
   }
 };
