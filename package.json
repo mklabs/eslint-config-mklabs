@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mklabs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint Shareable Config to suit my own taste",
   "main": "index.js",
   "repository": {
